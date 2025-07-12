@@ -1,12 +1,28 @@
-# React + Vite
+# 🎧 Suitify – Motivational Music Streaming App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Suitify Logo](public/suitify.png)
 
-Currently, two official plugins are available:
+**Suitify** is a colorful, stylish, and responsive motivational music streaming app built with **React + Vite**. It plays music, allows searching, and delivers an experience like Spotify—but made just for your inspiration playlist.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🌟 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🎵 Click anywhere on a song card to play
+- 🔍 Real-time song search
+- ⏯️ Play/Pause/Next/Previous controls
+- 🎚️ Interactive progress bar with seek
+- 📱 Fully mobile responsive
+- 🌈 Gradient-themed animated UI
+- 🖼️ Shared cover image for all songs
+- 🎧 “Now Playing” gif animation
+
+---
+
+## 🚀 Getting Started
+
+### 1. Install & Run
+
+```bash
+npm install
+npm run dev
