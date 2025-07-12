@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: linear-gradient(to right, #141e30, #243b55);
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+  color: white;
+  padding: 12px 24px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+}
+.brand {
+  display: flex;
+  align-items: center;
+}
+.brand img {
+  height: 40px;
+  margin-right: 10px;
+}
+.searchInput {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  width: 200px;
+  font-size: 14px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px 20px;
+  padding-bottom: 120px;
+}
+.songItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b);
+  padding: 12px 16px;
+  margin: 10px 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  color: white;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+.songItem:hover {
+  transform: scale(1.02);
+}
+.songItem img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.player {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #1f1f1f;
+  padding: 15px 20px;
+  color: white;
+  box-shadow: 0 -2px 8px rgba(0,0,0,0.5);
+}
+.player input[type=range] {
+  width: 100%;
+  margin-bottom: 10px;
+  accent-color: #00f0ff;
+}
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 28px;
+}
+.controls i {
+  cursor: pointer;
+}
+.nowPlaying {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.nowPlaying img {
+  width: 30px;
+}
+@media (max-width: 600px) {
+  .searchInput {
+    width: 120px;
+  }
+}
