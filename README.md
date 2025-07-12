@@ -1,8 +1,10 @@
 # 🎧 Suitify – Motivational Music Streaming App
+
 <p align="center">
-  <img src="public/suitify.png" alt="Suitify Logo" width="120"/>
+  <img src="public/suitify.png" alt="Suitify Logo" width="200"/>
 </p>
 
+🎵 Suitify music app - [deploy](https://suitify-music.netlify.app/)🚀
 
 **Suitify** is a colorful, stylish, and responsive motivational music streaming app built with **React + Vite**. It plays music, allows searching, and delivers an experience like Spotify—but made just for your inspiration playlist.
 
